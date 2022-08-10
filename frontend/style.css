@@ -1,0 +1,94 @@
+/* header */
+
+body {
+    background-color: #ffeedf;
+    font-family: 'Space Grotesk', sans-serif;
+   
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #145434;
+}
+
+.logo {
+    font-size: 36px;
+    color: #145434;
+}
+
+.menu-container span{
+    font-size: 36px;
+    color: #145434;
+    cursor: pointer;
+
+}
+
+/* beer cards section */
+
+.beer-cards-section {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+
+    background-color: aqua;
+
+}
+
+.beer-card {
+    width: 396px;
+    height: 260px;
+    padding: 40px;
+    background-color: #145434;
+}
+
+.beer-card p {
+    color: #ffeedf;
+}
+
+.index {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #145434;
+    color: #145434;
+    background-color: #ffeedf;
+    font-size: 24px;
+    text-align: center;   
+    line-height: 35px;
+}
+
+.beer-name {
+    font-size: 36px;
+}
+
+.beer-brewery {
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.beer-flavour {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.details-btn {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #145434;
+    color: #145434;
+    background-color: #ffeedf;
+    font-size: 14px;
+
+}
+.details-btn span {
+    font-size: 34px;
+}
